@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
     <head>
         <title>My Registration Form</title>
+    </head>
     <body>
         <h1>My Registration Form</h1>
         <form action="create_user">
@@ -22,12 +23,12 @@
                 <input type="text" id="password" name="password">
             </p>    
             <p>
-                <label for="pw confirm">PW Confirm:</label>
-                <input type="text" id="PW Confirm" name="PW Confirm">
+                <label for="pw_confirm">PW Confirm:</label>
+                <input type="text" id="pw_confirm" name="pw_confirm">
             </p>
             <p>
                 <label for="birthdate">Birthdate:</label>
-                <input type="date" id="birthdate" name="birthdate"></input>
+                <input type="text" id="birthdate" name="birthdate">
             </p>
             <p>
                 <label for="male">Male</label>
@@ -38,11 +39,10 @@
                 <input type="radio" id="other" name="gender" value="other">
             </p>
             <p>
-                <label for="Description">A short description about yourself:</label>
+                <label for="description">A short description about yourself:</label>
                 <p>
-                <textarea name="description"></textarea>
+                <textarea id="description" name="description"></textarea>
                 </p>
-            </p>
             <p>
                 <select name="favorite language">
                     <option value="javascript">JavaScript</option>
@@ -55,5 +55,5 @@
             </p>
         </form>
     </body>
-    </head>
 </html>
+
